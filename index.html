@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-div">
+        <!-- <h1>Proyecto formulario</h1> -->
+        <div class="container-fomulario">
+
+            <div class="imagen">
+                <img src="./imagen/imagen-form.svg" alt="">
+            </div>
+
+            <div class="form">
+                <form action="https://formspree.io/f/mvoednve" method="POST">
+                    <label for="nombre"> Nombre </label>
+                    <input type="text" name="nombre" id="nombre" required placeholder="Ingrese su nombre">
+
+                    <label for="email"> Email </label>
+                    <input type="email" name="email" id="email" placeholder="Ingrese su email">
+
+                    <label for="telefono"> Telefono </label>
+                    <input type="tel" name="telefono" id="telefono"placeholder="Ingrese su numero">
+
+                    <label for="edad"> Edad </label>
+                    <input type="number" name="edad" id="edad" placeholder="Ingrese su edad">
+
+                    <label for="comentario"> Mensaje </label>
+                    <textarea name="comentario" id="comentario" placeholder="Deje un comentario aqui"></textarea>
+                <button type="submit">Enviar</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
